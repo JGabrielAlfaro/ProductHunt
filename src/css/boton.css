@@ -1,0 +1,62 @@
+
+.btn {
+    display: block;
+    font-weight: 700 ;
+    text-transform: uppercase;
+    border: 1px solid #d1d1d1;
+    padding: .8rem 2rem ;
+    margin: 2rem auto;
+    text-align: center;
+
+}
+.btn:last-of-type {
+    margin-right: 0;
+}
+
+.blanco {
+    background-color: #DA552F;
+    color: white;
+}
+
+.rojo {
+    background-color: white;
+    color: #000;
+    width: 100%;
+}
+.btn:hover{
+    cursor: pointer;
+}
+
+.input-text {
+    border: 1px solid var(--gris3);
+    padding: 1rem;
+    min-width: 300px;
+}
+
+.input-submit {
+    height: 3rem;
+    width: 3rem;
+    display: block;
+    background-size: 4rm;
+    background-image: url('../../public/public/static/img/buscar.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 1rem;
+    top: 1px;
+    background-color: white;
+    border: none;
+    text-indent: -9999px;
+
+
+}
+.input-submit:hover{
+    cursor: pointer;
+}
+
+.formularioBtn {
+    position: relative;
+}
+
+
+
+

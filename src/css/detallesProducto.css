@@ -1,0 +1,82 @@
+.myLi {
+    padding: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.borderLi {
+    border: 1px solid #e1e1e1;
+    padding: 2rem;
+    
+}
+.idSpan {
+    font-weight: bold;
+}
+
+.DescripcionProducto {
+    flex: 0 1 600px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 2rem;
+}
+
+.titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0
+}
+
+.titulo a:hover {
+    cursor: pointer;
+}
+.textoDescripcion {
+    font-size: 1.6rem;
+    margin: 0;
+    color: #888;
+}
+
+.comentarios {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.comentario div {
+    display: flex;
+    align-items: center;
+    border: 1px solid #e1e1e1;
+    padding: .3rem 1rem;
+    margin-right: 2rem;
+}
+
+.comentario Image {
+    width: 2rem;
+    margin-right: 2rem;
+}
+.comentario p {
+    font-size: 1.6rem;
+    margin-right: 1rem;
+    font-weight: 700;
+   
+}
+.comentario p:last-of-type {
+   margin: 0;
+}
+
+.votos {
+    flex: 0 0 auto;
+    text-align: center;
+    border: 1px solid #e1e1e1;
+    padding: 1rem 3rem;
+}
+.votos div {
+    font-size: 2rem;
+
+}
+.votos p {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+}

@@ -1,0 +1,45 @@
+.linea {
+    border-bottom: 2px solid var(--gris3);
+    padding: 1rem 0;
+}
+
+.contenedor-header {
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+
+}
+@media (min-width: 768px) {
+    .contenedor-header {
+        display: flex;
+        justify-content: space-between;
+    }    
+}
+
+.logo {
+    color: var(--naranja);
+    font-size: 4rem;
+    line-height: 0;
+    font-weight: 700;
+    font-family: 'Roboto Slab',serif;
+    margin-right: 2rem;
+
+}
+
+.alinearHeaderDerecha {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.parrafo-sesion {
+    margin-right: 1rem;
+}
+
+.alinearHeaderIzquierda{
+    display: flex;
+    align-items: center;
+}
+
+
+
